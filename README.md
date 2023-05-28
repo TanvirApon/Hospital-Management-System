@@ -1,16 +1,59 @@
-# Hospital-Management-System
-This project is just a task from university in C++ technologies
+# Hospital Management System
 
+The Hospital Management System project is a task assigned by the university, implemented using C++ technologies. It aims to provide a comprehensive solution for managing various aspects of a hospital, including patient management, staff management, blood bank management, and inventory management.
 
+## Features
 
-# Patient management: 
-It keeps track of all details about both in-patient and out-patient. Patient id, patient name, address, admitted date, discharged date, doctor’s name, word no are entered in a form and stored for future reference. Also particular patient detail scan be viewed in the table using a separate form with a attribute patient id.
-# Staff management:  
-It keeps track of all details about doctors and entire staff of the hospital. Individual staff details can be viewed and updated with changing staff details. And attendance .The details of each and every staff /user details maintained and a username and password will be provided to concerned users so that they can log on to the system and perform activities related to the concerned departments.
+### Patient Management
 
-# Blood bank Management: 
-The system keeps the details of blood bank. It will generate automated reports keeping track of inventory for stock of bloods for different blood group and their Expiry.  The system will maintain a detail database of different blood donors according to their blood group. When a need will arise for ascertain group of blood donors then the system will produce name and other contact details of the blood donors related to that particular blood group. It will make it easier to contact them in emergency situation. The system manage the blood stock details. The system issue blood according to the patients’ requirements.
+- Patient Details: Keep track of all patient details, including patient ID, name, address, admission date, discharge date, doctor's name, and ward number.
+- In-patient and Out-patient: Manage records for both in-patients and out-patients.
+- View Patient Details: View individual patient details using a separate form with the patient ID as an attribute.
 
-# Inventory Management:
+### Staff Management
 
-The system keeps details of all the inventory of the hospital which may include various departments such as pharmaceuticals, transporting and medical equipment’s of  name out the few. Stock and vendor details are maintained by the system. This module deals with Purchase of Items, Issue of Items, Maintenance of Stock, Automatic Reorder level Setting, Request for stock from various sub- stores , stock transfer, maintenance of stock at different sub-stores, Physical stock verification and adjustment, Return of items to supplier .
+- Staff Details: Maintain details about doctors and other staff members of the hospital.
+- User Authentication: Provide a username and password to each staff member for secure login.
+- Attendance Tracking: Keep track of staff attendance and manage their details.
+
+### Blood Bank Management
+
+- Blood Bank Details: Manage the details of the blood bank, including blood group inventory and expiration dates.
+- Blood Donor Database: Maintain a database of blood donors categorized by their blood groups.
+- Automated Reports: Generate reports on blood inventory and provide contact details of blood donors in emergency situations.
+
+### Inventory Management
+
+- Inventory Details: Keep track of various inventories in the hospital, such as pharmaceuticals, medical equipment, and transportation.
+- Stock Management: Maintain stock details and vendor information.
+- Purchase and Issue: Handle the purchase of items, issue of items, and automatic reorder level setting.
+- Stock Transfer and Verification: Manage stock transfer between sub-stores, physical stock verification, and adjustments.
+
+## Usage
+
+To use the Hospital Management System, follow these steps:
+
+1. Clone the repository to your local machine using Git or download it as a ZIP file.
+2. Open the project in a C++ integrated development environment (IDE) such as Visual Studio or Code::Blocks.
+3. Compile and run the project to launch the application.
+4. Navigate through the different modules and functionalities provided by the system.
+5. Use the forms and interfaces to manage patient details, staff information, blood bank inventory, and hospital inventory.
+6. Follow the workflow and perform necessary operations like adding, updating, and viewing records.
+7. Ensure data validation and handle any exceptions that may occur during execution.
+
+Feel free to explore the features and functionality of the Hospital Management System to understand its capabilities in effectively managing various aspects of a hospital.
+
+## Contributing
+
+Contributions to the Hospital Management System project are welcome! If you have any suggestions, bug fixes, or additional features, please feel free to open an issue or submit a pull request. Your contributions can help enhance the functionality and usability of the system.
+
+When contributing, please adhere to the following guidelines:
+
+- Follow the existing coding style and naming conventions used in the project.
+- Provide clear and concise documentation for any new features or modifications.
+- Write meaningful commit messages that describe the changes made.
+- Ensure your code is free from errors and functions as intended.
+
+## License
+
+The content of this repository is licensed under the [MIT License](LICENSE). You are free to use and modify the code for educational or personal purposes. However, please note that the repository is provided "as is," without any warranty or guarantee of its accuracy or reliability.
