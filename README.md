@@ -7,27 +7,23 @@ The Hospital Management System project is a task assigned by the university, imp
 ### Patient Management
 
 - Patient Details: Keep track of all patient details, including patient ID, name, address, admission date, discharge date, doctor's name, and ward number.
-- In-patient and Out-patient: Manage records for both in-patients and out-patients.
 - View Patient Details: View individual patient details using a separate form with the patient ID as an attribute.
 
 ### Staff Management
 
 - Staff Details: Maintain details about doctors and other staff members of the hospital.
 - User Authentication: Provide a username and password to each staff member for secure login.
-- Attendance Tracking: Keep track of staff attendance and manage their details.
 
 ### Blood Bank Management
 
 - Blood Bank Details: Manage the details of the blood bank, including blood group inventory and expiration dates.
 - Blood Donor Database: Maintain a database of blood donors categorized by their blood groups.
-- Automated Reports: Generate reports on blood inventory and provide contact details of blood donors in emergency situations.
+
 
 ### Inventory Management
 
 - Inventory Details: Keep track of various inventories in the hospital, such as pharmaceuticals, medical equipment, and transportation.
-- Stock Management: Maintain stock details and vendor information.
-- Purchase and Issue: Handle the purchase of items, issue of items, and automatic reorder level setting.
-- Stock Transfer and Verification: Manage stock transfer between sub-stores, physical stock verification, and adjustments.
+
 
 ## Usage
 
